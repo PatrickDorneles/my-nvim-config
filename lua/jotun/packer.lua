@@ -45,7 +45,7 @@ return require('packer').startup(function(use)
       {'williamboman/mason-lspconfig.nvim'}, -- Optional
 
       -- Autocompletion
-      {'hrsh7th/nvim-cmp'},     -- Required
+      {'yioneko/nvim-cmp'},     -- Required
       {'hrsh7th/cmp-nvim-lsp'}, -- Required
       {'L3MON4D3/LuaSnip'},     -- Required
     }
@@ -62,6 +62,5 @@ return require('packer').startup(function(use)
   use("folke/zen-mode.nvim")
   use("laytan/cloak.nvim")
   use 'wakatime/vim-wakatime' 
-  use {'neoclide/coc.nvim', branch = 'release'}
 
 end)

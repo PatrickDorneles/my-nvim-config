@@ -7,7 +7,11 @@ require'lspconfig'.prismals.setup{}
 lsp.ensure_installed({
   'tsserver',
   'rust_analyzer',
-  'prismals'
+  'prismals',
+  'tailwindcss',
+  'cssls',
+  'emmet_ls',
+  'html'
 })
 
 -- Fix Undefined global 'vim'
